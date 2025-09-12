@@ -1,7 +1,7 @@
 export default async function Page() {
     return (
         <main>
-            <p>tbd</p>
+            <p>Coming Soon!</p>
         </main>
     );
 }

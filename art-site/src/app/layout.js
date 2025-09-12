@@ -20,16 +20,18 @@ export const metadata = {
 
 function Header() {
   return (
-    <header className="py-1">
-      <div className="flex items-center py-2.5">
-        <Image 
-          src="./Moxie Art Logo.PNG"
-          alt="Moxie Aradia-Carlos Art Logo"
-          width={600}
-          height={1084}
-        />
+    <header className="p-1">
+      <div className="container mx-auto px-4 w-50">
+        <a href="/">
+          <Image 
+            src="./Moxie Art Logo.PNG"
+            alt="Moxie Aradia-Carlos Art Logo"
+            width={600}
+            height={1084}
+          />
+        </a>
+        <Nav />
       </div>
-      <Nav />
     </header>
   );
 }
@@ -57,7 +59,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="flex flex-col items-center justify-between container mx-auto">
-        <div>
+        <div className="mx-auto m-10">
           <br />
           <Header />
           {children}
