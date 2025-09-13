@@ -17,12 +17,12 @@ export default function Home() {
           <div className="relative flex items-center p-10 -rotate-7">
             <Polaroid 
               src="./Shay and Elie.jpg"
-              alt="Photo and Shay and Elie in front of a pride parade mural"
+              alt="Photo and Shay and Elie in front of a pride parade mural in San Francisco!"
               text="Shay & Elie"
             />
           </div>
           <Note 
-            text="Hi! We're Shay & Elie Aradia-Carlos. Shay makes beautiful ceramic pieces, and Elie makes rugs, prints, & stickers."
+            text="Hi! We're Shay & Elie Aradia-Carlos. Shay makes beautiful ceramic pieces, and Elie makes awesome rugs, prints, & stickers."
             color="#FFC8C8"
           />
         </div>
@@ -35,7 +35,7 @@ export default function Home() {
           </div>
           <div className="text-center">
             <a href="https://www.instagram.com/moxieacart_shay" target="_blank">
-              Shay's Instagram: @moxieacart_shay
+              Shay's Instagram: @MoxieACart_shay
             </a>
             <br />
             <br />
