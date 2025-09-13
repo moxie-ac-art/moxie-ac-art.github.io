@@ -15,7 +15,7 @@ const carterOne = Carter_One({
 })
 
 export default async function Page() {
-    const style = "flex flex-col items-center justify-between bg-[#8EBC7C] rounded-xl p-10 w-[600px] " + bethEllen.className;
+    const style = "flex flex-col items-center justify-between bg-[#8EBC7C] rounded-xl p-10 w-[600px] h-[360px] " + bethEllen.className;
     const emailStyle = "text-[20px] " + carterOne.className;
     const contactText = (
         <p className="text-center text-[14px]">

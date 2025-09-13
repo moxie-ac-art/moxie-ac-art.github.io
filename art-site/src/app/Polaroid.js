@@ -6,7 +6,7 @@ export default function Polaroid({src, alt, text, width=110, height=110}) {
         <div>
             <svg width="150" height="190">
                 <rect width="150" height="190" fill="white" />
-                </svg>
+            </svg>
             <Image 
                 src={src}
                 alt={alt}
