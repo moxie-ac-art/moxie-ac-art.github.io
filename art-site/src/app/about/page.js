@@ -1,6 +1,15 @@
+import { Beth_Ellen } from "next/font/google";
+
+const bethEllen = Beth_Ellen({
+  variable: "--font-beth-ellen",
+  weight:'400',
+  subsets: ["latin"],
+});
+
 export default async function Page() {
+    const style = "flex flex-col items-center justify-between bg-[#FFC8C8] rounded-xl p-10 " + bethEllen.className;
     return (
-        <main className="p-3">
+        <main className={style}>
             <div>
                 <p>
                     Our story started when we met as roommates at NAU up in Flagstaff. 
