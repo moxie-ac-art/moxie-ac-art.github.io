@@ -1,17 +1,7 @@
-import { Geist, Geist_Mono, Bagel_Fat_One } from "next/font/google";
+import { Bagel_Fat_One } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
 import Link from "next/link";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 const bagelFatOne = Bagel_Fat_One({
   variable: "--font-bagel-fat-one",

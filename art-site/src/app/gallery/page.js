@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default async function Page() {
-    const style = "flex flex-col items-center justify-between bg-[#C1DEFF] rounded-xl p-10";
+    const style = "flex flex-col items-center justify-between bg-[#C1DEFF] rounded-xl p-10 w-[600px]";
     return (
         <main className={style}>
             <Image 
