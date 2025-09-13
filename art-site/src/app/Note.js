@@ -1,7 +1,7 @@
 "use client";
 
 export default function Note({text, color}) {
-    const noteStyle = "flex gap-4 items-center flex-col sm:flex-row p-5 bg-[" + color + "]";
+    const noteStyle = "flex gap-4 items-center flex-col sm:flex-row p-5 bg-[" + color + "] shadow-xl";
     return (
         <div className="flex flex-col items-center justify-between m-5">
             <div className="translate-y-5">

@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Polaroid({src, alt, text, width=110, height=110}) {
     return (
         <div>
-            <svg width="150" height="190">
+            <svg width="150" height="190" className="shadow-xl">
                 <rect width="150" height="190" fill="white" />
             </svg>
             <Image 
