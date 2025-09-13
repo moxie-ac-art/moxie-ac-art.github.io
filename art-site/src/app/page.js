@@ -1,5 +1,6 @@
-import Image from "next/image";
 import { Beth_Ellen } from "next/font/google";
+
+import Polaroid from "./Polaroid";
 
 const bethEllen = Beth_Ellen({
   variable: "--font-beth-ellen",
@@ -13,17 +14,11 @@ export default function Home() {
       <main className={style}>
         <div className="flex flex-row items-center justify-between bg-[#D9D9D9] rounded-2xl w-[600px] h-[360px]">
           <div className="relative flex items-center p-10 -rotate-7">
-            <svg width="160" height="190">
-                <rect width="150" height="190" fill="white" />
-              </svg>
-            <Image 
+            <Polaroid 
               src="./Shay and Elie.jpg"
-              alt="Shay and Elie standing in front of Pride mural"
-              width={110}
-              height={110}
-              className="absolute bottom-18 left-15"
+              alt="Photo and Shay and Elie in front of a pride parade mural"
+              text="Shay & Elie"
             />
-            <p className="absolute bottom-12 left-16">Shay & Elie</p>
           </div>
           <div className="flex flex-col items-center justify-between m-5">
             <div className="translate-y-5">
